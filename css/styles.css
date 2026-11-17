@@ -1,0 +1,34 @@
+/* Stacks Property Services site styles
+   Brand: navy #1B2879, white #FFFFFF. Typeface: Poppins (Google Fonts). */
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+img{max-width:100%;height:auto}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0}
+a{color:#1B2879}a:hover{color:#111A55}
+.ph{background:repeating-linear-gradient(135deg,#E9EBF4 0 14px,#DEE2F0 14px 28px)}
+.navlink{color:#1F2440;text-decoration:none;font-weight:600;padding:12px 4px}
+.navlink:hover{color:#1B2879;text-decoration:underline;text-underline-offset:6px}
+a:focus-visible,button:focus-visible{outline:3px solid #6F7BD1;outline-offset:3px}
+.svc{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:0 32px}
+.svc li{padding:14px 0;border-top:1px solid #D5D9EA;font-weight:600}
+.svcd li{border-top-color:#3A4796}
+.dir{margin:0;padding:0;list-style:none}
+.dir li{display:flex;align-items:baseline;gap:12px;padding:13px 0;border-top:1px solid #3A4796}
+.dir li:first-child{border-top:none}
+.lvl{flex:0 0 auto;min-width:118px;font-weight:800;font-size:15px;letter-spacing:0.02em}
+.lead{flex:1 1 auto;border-bottom:2px dotted #6F7BD1;transform:translateY(-5px);min-width:16px}
+.what{flex:0 1 auto;text-align:right;color:#E4E7F6;font-size:16px}
+.plan li{padding:8px 0;border-top:1px solid #D5D9EA;font-size:16px}
+.cardtitle{color:#1F2440;text-decoration:none}
+.cardtitle:hover{color:#1B2879;text-decoration:underline;text-underline-offset:4px}
+.prose{font-size:18px;line-height:1.7;color:#1F2440}
+.prose h2{font-weight:800;font-size:30px;line-height:1.15;color:#1B2879;margin:56px 0 14px}
+.prose h3{font-size:20px;line-height:1.35;font-weight:700;margin:30px 0 8px;color:#1F2440}
+.prose p{margin:0 0 16px}
+.prose ul,.prose ol{margin:0 0 20px;padding-left:24px}
+.prose li{margin-bottom:9px}
+.prose table{border-collapse:collapse;width:100%;font-size:16px;line-height:1.5;min-width:560px}
+.prose th{background:#1B2879;color:#FFFFFF;text-align:left;padding:12px 14px;font-weight:700}
+.prose td{border-bottom:1px solid #D5D9EA;padding:12px 14px;vertical-align:top}
+h1,h2,h3{letter-spacing:-0.015em}
